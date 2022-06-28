@@ -14,7 +14,7 @@
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #999;
   border-radius: 0;
   border: 0;
 }
@@ -27,7 +27,7 @@
 }
 
 .navbar-brand {
-  padding-top: 25px;
+  padding-top: -5px;
 }
 .navbar-brand h1 { /* Restaurant name */
   color: #000000;
@@ -146,6 +146,55 @@
   opacity: .8;
 }
 /* END HOME PAGE */
+
+/* MENU ITEM BOXES */
+h1 {
+    font-size: 175%;
+    margin: 15px 0;
+    text-align: center;
+  }
+
+  .col {
+    color: #000;
+    border: 1px solid #000;
+    padding: 0 10px 10px 10px;
+    margin: 10px;
+    background-color: #999999;
+  }
+
+  .col h2 {
+    font-size: 125%;
+    float: right;
+    margin: 0 -10px 5px 0;
+    padding: 5px 10%;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    /* For extremely small screens */
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .col p {
+    font-size: 100%;
+    clear: right;
+    /* For extremely small screens */
+    overflow: hidden;
+  }
+  
+  #chicken h2 {
+    background-color: #d59898;
+  }
+  
+  #beef h2 {
+    background-color: #c14543;
+    color:#fff;
+  }
+  
+  #sushi h2 {
+    background-color: #e5d198;
+  }
+
+/* MENU ITEM BOXES */
 
 /* MENU CATEGORIES PAGE */
 .category-tile { 
