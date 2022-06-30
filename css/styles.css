@@ -64,6 +64,12 @@ a.navbar-brand:hover h1, a.navbar-brand:focus h1 {
 }
 /* END HEADER */
 
+/* CONTENT */
+.row div {
+  min-height: 1000px;
+  margin-bottom: 20px;
+}
+
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
@@ -113,11 +119,12 @@ h1 {
 
   .col h2 {
     font-size: 125%;
-    float: right;
+    font-weight: bold;
+    text-align: center;
     margin: 0 -10px 5px 0;
     padding: 5px 10%;
-    border-bottom: 1px solid #000;
-    border-left: 1px solid #000;
+    /*border-bottom: 1px solid #000;
+    border-left: 1px solid #000;*/
     /* For extremely small screens */
     max-width: 100%;
     overflow: hidden;
@@ -125,22 +132,9 @@ h1 {
   
   .col p {
     font-size: 100%;
-    clear: right;
+
     /* For extremely small screens */
     overflow: hidden;
-  }
-  
-  #chicken h2 {
-    background-color: #d59898;
-  }
-  
-  #beef h2 {
-    background-color: #c14543;
-    color:#fff;
-  }
-  
-  #sushi h2 {
-    background-color: #e5d198;
   }
 
 /********** Large devices only **********/
